@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aşırı Havalı İnsan</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #121212;
+      color: #e0e0e0;
+    }
+
+    .hero {
+      background: rgba(0, 0, 0, 0.8);
+      text-align: center;
+      padding: 5rem 1rem;
+      animation: fadeIn 2.5s ease-in-out;
+    }
+
+    .hero .title {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    .hero .subtitle {
+      font-size: 1.5rem;
+      margin: 1rem 0 0;
+      color: #b0b0b0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+
+    section {
+      padding: 4rem 1rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    .features {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+      padding: 2rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      animation: slideIn 2s ease-in-out;
+    }
+
+    .features .grid {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .features .card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 1.5rem;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      transition: transform 0.5s ease, box-shadow 0.5s ease;
+    }
+
+    .features .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .gallery img {
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      transition: transform 0.5s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .footer {
+      background: rgba(0, 0, 0, 0.9);
+      color: #b0b0b0;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(40px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1 class="title">Neformation</h1>
+      <p class="subtitle">Basit, Şık ve Etkileyici!</p>
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="container">
+      <h2>Hakkında</h2>
+      
+Neformation, yazılım dünyasına olan tutkusu ve bitmek bilmeyen öğrenme isteğiyle tanınan genç bir geliştiricidir. Teknolojiye olan merakı, onu çocukluk yıllarından itibaren kod yazmaya yöneltti. İlk satırlarını bir not defteri üzerinde yazan Neformation, bugün modern yazılım dillerinde projeler geliştiren bir yazılımcıya dönüştü.
+
+Yapay zeka, web geliştirme ve açık kaynak projeler üzerine yoğunlaşan Neformation, sadece teknik becerileriyle değil, aynı zamanda yaratıcı fikirleri ve problem çözme yeteneğiyle de fark yaratır. Çalışmalarında temiz kod, kullanıcı deneyimi ve performans odaklı çözümler üretmeyi önceliklendirir.
+
+Boş zamanlarında yeni teknolojileri keşfetmek, hackathon’lara katılmak ve açık kaynak dünyasına katkıda bulunmak onun için vazgeçilmez bir hobidir. Neformation’un hayali, teknoloji sayesinde insanların hayatlarını kolaylaştıracak yenilikçi çözümler üretmek ve dünya çapında bir etki yaratmaktır.
+
+Ekip çalışmasına açık, paylaşmayı seven ve sürekli gelişime inanan Neformation, yazılım dünyasında yeni bir soluk olmaya adaydır.</p>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <h2>Özellikler</h2>
+      <div class="grid">
+
+
+        <div class="card">
+          <h3>Yazılımcı</h3>
+          Kendi çevresinde popüler bir yazılımcıdır?
+          <p></p></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <div class="container">
+      <h2>Galeri</h2>
+      <div>
+        <img src="https://m.media-amazon.com/images/M/MV5BYTgwYjcxMmQtMWNkYy00YmRhLTllZTMtYjYxZTEzZTYxZDcyXkEyXkFqcGc@._V1_.jpg" alt="Fotoğraf 1">
+       
+        <img src="https://images.bursadabugun.com/galeriler/2017/03/24/41305-akilli-telefonlara-gelecek-yeni-emoji-ler-gorundu-58d60863005e9.jpg" alt="Fotoğraf 3">
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Neformation. Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+</body>
+</html>
